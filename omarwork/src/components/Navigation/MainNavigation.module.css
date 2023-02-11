@@ -1,0 +1,54 @@
+.header{
+    position: fixed;
+    z-index: 999;
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainNavigation{
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 1000px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.mainNavigationTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem; 
+    /* important tgayer el fs baaden */
+    font-weight: 700;
+    letter-spacing: -.5px;
+}
+
+
+.mainNavigationLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainNavigationImg{
+    height: 2rem;
+}
+
+.mainNavigationImgTitle{
+    font-family: "Nunito",sans-serif;
+}
+
+.mainNavigationList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
