@@ -1,6 +1,6 @@
 .header{
     position: fixed;
-    z-index: 999;
+    z-index: 400;
     height: 8vh;
     width: 100%;
     background-color: rgba(255, 255, 255, .4);
@@ -29,7 +29,6 @@
   }
 
   .main-navigation__menu-btn span {
-
     display: block;
     width: 2rem;
     height: 2px;
@@ -41,7 +40,6 @@
     width: 90vw;
     max-width: 1000px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -70,6 +68,8 @@
 
 .mainNavigationImgTitle{
     font-family: "Nunito",sans-serif;
+    text-decoration: none;
+    color: #252422;
 }
 
 .mainNavigationList{
@@ -78,7 +78,7 @@
     align-items: center;
 }
 
-/*  */
+
 
 .main-navigation__header-nav {
     display: none;

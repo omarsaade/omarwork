@@ -14,3 +14,26 @@ ul a {
     font-weight: 400;
     
 }
+
+@media (max-width: 768px) {
+    .navLinks{
+     margin-top: 200px;
+     flex-direction: column;
+    }
+  
+    .navLinks li{
+      margin: 0 0.5rem;
+    }
+  
+    .navLinks a{
+      color: #252422;;
+      text-decoration: none;
+    }
+  
+    
+    .navLinks a:hover,
+    .navLinks a:active {
+      cursor: pointer;
+      color: black;
+    }
+  }

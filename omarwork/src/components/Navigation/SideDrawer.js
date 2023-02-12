@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import classes from "./SideDrawer.module.css";
 import { CSSTransition } from "react-transition-group";
+import classes from "./SideDrawer.module.css";
 
 const SideDrawer = (props) => {
   const content = (
