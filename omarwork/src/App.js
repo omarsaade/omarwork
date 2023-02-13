@@ -1,6 +1,7 @@
 import React from "react";
 import MainNavigation from "./components/Navigation/MainNavigation";
 import SectionHero from "./components/main/SectionHero";
+import SectionWorks from "./components/main/SectionWorks";
 import "./App.css";
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <MainNavigation />
       <main className="home-container">
         <SectionHero />
+        <SectionWorks />
       </main>
     </React.Fragment>
   );

@@ -31,7 +31,7 @@ const MainNavigation = () => {
                 alt="logo"
               />
               <NavLink to="/" className={classes.mainNavigationImgTitle}>
-                Omar Work
+                Omar Saade
               </NavLink>
             </span>
           </h1>
