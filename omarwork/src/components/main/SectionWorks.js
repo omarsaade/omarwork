@@ -17,7 +17,24 @@ const SectionWorks = () => {
         <div className={`${classes["project-image-grid"]}`}>
           <img alt="FavoritePlace App" src={FavoritePlace} />
         </div>
-        <div className={`${classes["project-content-container-grid"]}`}></div>
+        <div className={`${classes["project-content-container-grid"]}`}>
+          <ul className={`${classes["project-technology-grid"]}`}>
+            <li>React</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+          </ul>
+          <div className={classes.project}>
+            <p>
+              Snap App focus on creating a photo sharing platform for people who
+              love architecture. It integrates sharing, navigation, architecture
+              information and tour planning together.
+            </p>
+            <div className={classes.viewProject}>
+              <NavLink to="/">View Project</NavLink>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
