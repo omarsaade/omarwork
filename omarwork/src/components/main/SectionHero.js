@@ -10,7 +10,7 @@ const SectionHero = () => {
         <div className={`${classes["hero-title-text"]}`}>
           <h4>Hi, I'm Omar</h4>
           <p>
-            <span>Creative</span> Software Developer
+            <span>Passionate</span> Software Developer
           </p>
         </div>
         <div className={`${classes["hero-title-image"]}`}>
@@ -42,8 +42,7 @@ const SectionHero = () => {
           <p>
             In my spare time, I enjoy doing some freelancing work. My goal is to
             use technology to help clients articulate what’s in their mind to
-            better express themselves. Aside from software development, I'm
-            interested in ethical hacking , and horseback riding.
+            better express themselves.
           </p>
         </div>
       </div>

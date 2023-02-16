@@ -8,6 +8,7 @@
     gap: 0.8rem;
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -16,4 +17,5 @@
     width: 0.6rem;
     height: 2rem;
     background-color: #eb5e28;
+    
 }

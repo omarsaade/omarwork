@@ -69,8 +69,9 @@
 .mainNavigationImgTitle{
     font-family: "Nunito",sans-serif;
     text-decoration: none;
-    color: #252422;
+    color: #363430;
     font-size: 1.8rem;
+    font-weight: 550;
 }
 
 .mainNavigationList{

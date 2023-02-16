@@ -2,8 +2,9 @@ import React from "react";
 import MainNavigation from "./components/Navigation/MainNavigation";
 import SectionHero from "./components/main/SectionHero";
 import SectionWorks from "./components/main/SectionWorks";
-import "./App.css";
 import Hero from "./components/main/Hero";
+import SectionIdea from "./components/main/SectionIdea";
+import "./App.css";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <main className="home-container">
         <SectionHero />
         <Hero />
+        <SectionIdea />
       </main>
     </React.Fragment>
   );

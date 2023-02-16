@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .home-container{
   padding-top: 13vh;
@@ -45,5 +45,5 @@
   flex-direction: column;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }

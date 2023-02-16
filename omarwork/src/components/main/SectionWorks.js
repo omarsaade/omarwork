@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./SectionWorks.module.css";
-// import FavoritePlace from "../../assets/Untitled.jpg";
 
 const SectionWorks = (props) => {
   return (
@@ -9,7 +8,7 @@ const SectionWorks = (props) => {
       <div className={`${classes["project-container-grid"]}`}>
         <div className={`${classes["project-title-grid"]}`}>{props.name}</div>
         <div className={`${classes["project-image-grid"]}`}>
-          <img alt="FavoritePlace App" src={props.img} />
+          <img alt="Image/OmarSaade" src={props.img} />
         </div>
         <div className={`${classes["project-content-container-grid"]}`}>
           <ul className={`${classes["project-technology-grid"]}`}>
@@ -20,7 +19,9 @@ const SectionWorks = (props) => {
           <div className={classes.project}>
             <p>{props.about}</p>
             <div className={classes.viewProject}>
-              <NavLink to={props.url}>View Project</NavLink>
+              <NavLink to={props.url}>View&nbsp;Project</NavLink>
+              <span>___</span>
+              <NavLink to={props.github}>Github</NavLink>
             </div>
           </div>
         </div>

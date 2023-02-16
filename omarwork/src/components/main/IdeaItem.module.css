@@ -1,0 +1,34 @@
+.dec{
+    text-decoration: none;
+}
+
+.featuredPostContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0.8rem;
+    gap: 0.8rem;
+}
+
+
+.featuredPostImage{
+    cursor: pointer;
+    width: 100%;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 0.6rem;
+    transition: transform .4s;
+}
+
+.featuredPostImage:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+.featuredPostTitle{
+    font-size: 1.1rem;
+    color: #403d39;
+    display: block;
+}
