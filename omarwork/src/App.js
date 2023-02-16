@@ -3,6 +3,7 @@ import MainNavigation from "./components/Navigation/MainNavigation";
 import SectionHero from "./components/main/SectionHero";
 import SectionWorks from "./components/main/SectionWorks";
 import "./App.css";
+import Hero from "./components/main/Hero";
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
       <MainNavigation />
       <main className="home-container">
         <SectionHero />
-        <SectionWorks />
+        <Hero />
       </main>
     </React.Fragment>
   );
