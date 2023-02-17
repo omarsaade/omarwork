@@ -21,7 +21,7 @@ const Data = [
     name: "CryptoFinder App",
     tools: ["React", "Firebase", "Redux Toolkit", "Render"],
     about:
-      "CryptoFinder App focus on using the latest version on redux (Redux Toolkit) and React Router V6 ",
+      "CryptoFinder App focus on using the latest version of redux (Redux Toolkit) and React Router (V6) ",
     url: "https://omarsaade-cryptofinder.onrender.com",
     github: "https://github.com/omarsaade/CryptoFinder",
     image: CryptoFinderApp,
@@ -31,7 +31,7 @@ const Data = [
     name: "Food Order App & Dashboard",
     tools: ["HTML", "PHP", "Mysql", "CSS", "Render"],
     about:
-      " Food Order Website , create complete dynamic and fully functional website using PHP programming language and MySQL Database.",
+      " Food Order Website is a complete dynamic and fully functional website using PHP programming language and MySQL Database.",
     url: "https://github.com/omarsaade/Food-Order-Website",
     github: "https://github.com/omarsaade/Food-Order-Website",
     image: FoodOrderApp,
@@ -61,43 +61,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-//   const [data, setData] = useState(null);
-
-//   const query = `
-//     query GetUserArticles($page: Int!) {
-//         user(username: "os921") {
-//             publication {
-//                 posts(page: $page) {
-//                     title
-//                     brief
-//                     slug
-//                     coverImage
-//                 }
-//             }
-//         }
-//     }
-//   `;
-//   const variables = { page: 0 };
-//   const fetchMyBlogs = async () => {
-//     const data = await fetch("https://api.hashnode.com/", {
-//       method: "POST",
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//       body: JSON.stringify({
-//         query,
-//         variables,
-//       }),
-//     });
-
-//     const result = await data.json();
-//     const articles = result.data.user.publication.posts;
-//     return articles;
-//   };
-
-//   useEffect(() => {
-//     fetchMyBlogs().then((x) => {
-//       setData(x);
-//     });
-//   }, []);
