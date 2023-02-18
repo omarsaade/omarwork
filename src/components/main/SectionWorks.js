@@ -23,7 +23,9 @@ const SectionWorks = (props) => {
             <div className={classes.viewProject}>
               <NavLink to={props.url}>View&nbsp;Project</NavLink>
               <span>___</span>
-              <NavLink to={props.github}>Github</NavLink>
+              <NavLink className={classes.pr} to={props.github}>
+                Github
+              </NavLink>
             </div>
           </div>
         </div>
