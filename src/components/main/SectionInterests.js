@@ -5,7 +5,7 @@ const SectionInterests = () => {
     <section>
       <div className={`${classes["works-title"]}`}>
         <div></div>
-        Interests
+        Hobbies
       </div>
       <div className={classes.interestsText}>
         <p> Horseback Riding, Tennis, Checkers, Hiking, Art, Travelling</p>

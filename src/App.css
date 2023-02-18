@@ -29,6 +29,12 @@
 
 
 @media (max-width: 32em){
+
+.home-container{
+  /*  */
+  width: 90%;
+}
+
 .footer {
     width: 40%;
 }

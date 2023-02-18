@@ -40,7 +40,7 @@ const SectionIdea = () => {
     <section>
       <div className={`${classes["works-title"]}`}>
         <div></div>
-        Thoughts & Blogs
+        Blogs
       </div>
       <div className={classes.selectedPostsConatiner}>
         {Data.map((i) => (

@@ -9,7 +9,7 @@ const Data = [
   {
     id: 1,
     name: "My Favorite Place",
-    tools: ["React", "Node", "Express", "MongoDB", "Render"],
+    tools: ["ReactJS", "Node", "Express", "MongoDB"],
     about:
       "My Favorite Place is an App that allows users to save and favorite their favorite places, It integrates navigation, description and information about that place .",
     url: "https://omarsaade-favoriteplaces.onrender.com",
@@ -19,7 +19,7 @@ const Data = [
   {
     id: 2,
     name: "CryptoFinder App",
-    tools: ["React", "Firebase", "Redux Toolkit", "Render"],
+    tools: ["React", "Firebase", "ReduxToolkit", "Render"],
     about:
       "CryptoFinder App focus on using the latest version of redux (Redux Toolkit) and React Router (V6) ",
     url: "https://omarsaade-cryptofinder.onrender.com",
@@ -28,7 +28,7 @@ const Data = [
   },
   {
     id: 3,
-    name: "Food Order App & Dashboard",
+    name: "Food Order App",
     tools: ["HTML", "PHP", "Mysql", "CSS", "Render"],
     about:
       " Food Order Website is a complete dynamic and fully functional website using PHP programming language and MySQL Database.",

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import myImage from "../../assets/omar.jpg";
+import myImage from "../../assets/sy.png";
 import classes from "./SectionHero.module.css";
 
 const SectionHero = () => {
@@ -10,7 +10,8 @@ const SectionHero = () => {
         <div className={`${classes["hero-title-text"]}`}>
           <h4>Hi, I'm Omar</h4>
           <p>
-            <span>Passionate</span> Software Developer
+            <span className={classes.pass}>Passionate</span>
+            <span className={classes.software}>Software Developer</span>
           </p>
         </div>
         <div className={`${classes["hero-title-image"]}`}>

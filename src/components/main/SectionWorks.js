@@ -6,7 +6,9 @@ const SectionWorks = (props) => {
   return (
     <section className={`${classes["section-works"]}`}>
       <div className={`${classes["project-container-grid"]}`}>
-        <div className={`${classes["project-title-grid"]}`}>{props.name}</div>
+        <div className={`${classes["project-title-grid"]}`}>
+          <p className={classes.pTitle}>{props.name}</p>
+        </div>
         <div className={`${classes["project-image-grid"]}`}>
           <img alt="Image/OmarSaade" src={props.img} />
         </div>
