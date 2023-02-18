@@ -99,18 +99,17 @@
 
 
 .hero-title-text {
-margin-left: 3.5rem;
+margin-left: 0.3rem;
 }
 
 
 
 .hero-title-image img {
     /*  */
-margin-top: -1rem;
-    height: 14vh;
-    margin-left: -12rem;
+    margin-top: -2rem;
+    height: 15vh;
+    margin-left: -8rem;
     
-   
 }
 
 .hero-title-text h4{
