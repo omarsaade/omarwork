@@ -9,7 +9,7 @@ const Data = [
   {
     id: 1,
     name: "My Favorite Place",
-    tools: ["ReactJS", "Node", "Express", "MongoDB"],
+    tools: ["React", "Node", "ExpressJS", "MongoDB"],
     about:
       "My Favorite Place is an App that allows users to save and favorite their favorite places, It integrates navigation, description and information about that place .",
     url: "https://omarsaade-favoriteplaces.onrender.com",

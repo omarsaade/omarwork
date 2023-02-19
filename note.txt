@@ -1,0 +1,318 @@
+.section-works{
+    width: 50vw;
+    max-width: 1000px;
+    margin-bottom: -5rem;
+}
+
+
+
+.project-container-grid{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 2.4rem;
+    gap: 2.4rem;
+    /* margin-bottom: 6.4rem; */
+
+}
+
+.project-title-grid{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #010101;
+}
+
+.project-image-grid{
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    border-radius: 0.6rem;
+}
+
+.project-image-grid img{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+
+.project-content-container-grid{
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+
+.project-technology-grid{
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color:  #403d39;;
+    /* display: flex; */
+    display: inline;
+    /* align-items: flex-start; */
+    grid-gap: 0.4rem;
+    gap: 0.4rem;
+}
+
+
+.project-technology-grid li{
+    color: #252422;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #e6dfd3;
+    padding: 2px 8px;
+    border-radius: 4px;
+    /* margin-right: 0.35rem; */
+    float: left;
+    
+}
+
+
+.project{
+    font-size: 1.2rem;
+    color: #403d39;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 0.8rem;
+    gap: 0.8rem;
+    /*  */
+    height: 13rem;
+}
+
+
+.project p{
+    margin-top: -0.5rem;
+text-align: left;
+display: block;
+margin-bottom: -0.3rem;
+}
+
+
+
+
+
+.viewProject a{
+    text-decoration: none;
+    cursor: pointer;
+    /* color: rgb(65, 64, 64); */
+    font-size: 1.1rem;
+    font-weight: 400;
+    /* margin-left: 2.2rem; */
+    transition: color 0.1s, background-color 0.1s;
+    color: #000000;
+    position: relative;
+}
+
+
+
+  .viewProject span{
+    color: white;
+  }
+  
+   .viewProject a::before {
+    content: '';
+    /* display: block; */
+    /*  */
+    position: absolute;
+    top: 100%;
+    height: 2px;
+    width: 100%;
+    background-color: #848a8b;
+    -webkit-transform-origin: center top;
+            transform-origin: center top;
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
+    transition: color 0.1s, -webkit-transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out;
+    transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  }
+ 
+  .viewProject a:active::before {
+    background-color: #848a8b;
+  }
+  
+  .viewProject a:hover::before,
+  .viewProject a:focus::before {
+    -webkit-transform-origin: center top;
+            transform-origin: center top;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  } 
+
+/*  */
+
+@media (max-width: 777px){
+
+    .section-works{
+        margin-bottom: -3rem;
+    }
+    
+    
+.section-works img {
+    height: 48%;
+    width: 40rem;
+    margin-left: 7rem;
+    margin-top: -200px;
+}
+
+
+
+
+.section-works{
+    width: 66%;
+}
+
+
+.project-image-grid{
+    display: flex;
+    justify-content: center;
+    width: 170%;
+    height: 25rem;
+}
+
+
+.project-technology-grid{
+    margin-left: 2rem;
+    display: flex;
+    justify-content:center;
+    
+    }
+
+.project-technology-grid li{
+    color: #252422;
+    font-size: 0.7rem;
+    font-weight: 500;
+    background-color: #e6dfd3;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+
+.project-content-container-grid{
+    margin-top: -15rem;
+}
+
+.project p {
+font-size:medium;
+text-align: left;
+display: block;
+
+}
+
+.project{
+ /* width: 100%; */
+    height: 15rem;
+    /*  */
+    font-size: 1.2rem;
+    color: #403d39;
+    width:145%;
+    display: block;
+    height: 13rem;
+    /* float: left; */
+    margin-top: -1rem;
+}
+
+.viewProject a{
+   margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    /* margin-left: 1rem; */
+    color: #000000;
+    
+}
+
+
+.viewProject {
+    display: block;
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.project-title-grid {
+    /* margin-left: auto;  */
+    margin-right: 3rem;
+    margin-bottom: -2rem;
+    /* width: 100%; */
+  
+}
+
+@-moz-document url-prefix() {
+    .project-title-grid {
+        /* margin-left: auto;  */
+        margin-right: 2rem;
+        margin-bottom: -2rem;
+        display: ruby;
+    }
+
+    .project-technology-grid{
+        margin-left: 2.5rem;
+        display: flex;
+        justify-content:center;
+        
+        }
+
+}
+
+
+
+.project-title-grid p{
+  
+    
+    text-align:end;
+    
+}
+
+.pTitle{
+   color:#252422;
+}
+
+
+
+}
+
+=================================
+
+
+import React from "react";
+import { NavLink } from "react-router-dom";
+import classes from "./SectionWorks.module.css";
+
+const SectionWorks = (props) => {
+  return (
+    <section className={`${classes["section-works"]}`}>
+      <div className={`${classes["project-container-grid"]}`}>
+        <div className={`${classes["project-title-grid"]}`}>
+          <p className={classes.pTitle}>{props.name}</p>
+        </div>
+        <div className={`${classes["project-image-grid"]}`}>
+          <img alt="Image/OmarSaade" src={props.img} />
+        </div>
+        <div className={`${classes["project-content-container-grid"]}`}>
+          <ul className={`${classes["project-technology-grid"]}`}>
+            {props.tools.map((i) => (
+              <li key={Math.random() * 1000}>{i}</li>
+            ))}
+          </ul>
+          <div className={classes.project}>
+            <p>{props.about}</p>
+            <div className={classes.viewProject}>
+              <NavLink to={props.url}>View&nbsp;Project</NavLink>
+              <span>___</span>
+              <NavLink className={classes.pr} to={props.github}>
+                Github
+              </NavLink>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SectionWorks;
