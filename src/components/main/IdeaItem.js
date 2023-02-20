@@ -10,7 +10,10 @@ const IdeaItem = (props) => {
           src={props.image}
           className={classes.featuredPostImage}
         />
-        <div className={classes.featuredPostTitle}>{props.title}</div>
+        <div className={classes.featuredPostTitle}>
+          {props.title}
+          <span className={classes.blogFrom}>&nbsp;({props.from})</span>
+        </div>
       </div>
     </NavLink>
   );

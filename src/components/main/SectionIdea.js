@@ -5,6 +5,7 @@ import classes from "./SectionIdea.module.css";
 const Data = [
   {
     id: 11,
+    from: "hashnode.com",
     title:
       "An Alternative to Google's Geocoding API that doesn't use a credit card",
     url: "https://omarsaade.hashnode.dev/an-alternative-to-googles-geocoding-api-that-doesnt-use-a-credit-card",
@@ -13,6 +14,7 @@ const Data = [
   },
   {
     id: 22,
+    from: "stackoverflow.com",
     title: "React 18 useEffect behavior",
     url: "https://stackoverflow.com/questions/62631053/useeffect-being-called-multiple-times/74158550#74158550",
     image:
@@ -20,6 +22,7 @@ const Data = [
   },
   {
     id: 33,
+    from: "hashnode.com",
     title:
       "Why do we need to add server-side validation? Didn't we add validation in the front-end section?",
     url: "https://omarsaade.hashnode.dev/why-do-we-need-to-add-server-side-validation-didnt-we-add-validation-in-the-front-end-section",
@@ -28,6 +31,7 @@ const Data = [
   },
   {
     id: 44,
+    from: "hashnode.com",
     title: "Building Custom Middleware Function in Express JS",
     url: "https://omarsaade.hashnode.dev/building-custom-middleware-function",
     image:
@@ -47,6 +51,7 @@ const SectionIdea = () => {
           <IdeaItem
             id={i.id}
             key={i.id}
+            from={i.from}
             title={i.title}
             url={i.url}
             image={i.image}
