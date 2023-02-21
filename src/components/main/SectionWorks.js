@@ -13,11 +13,6 @@ const SectionWorks = (props) => {
           <img alt="Image/OmarSaade" src={props.img} />
         </div>
         <div className={`${classes["project-content-container-grid"]}`}>
-          {/* <ul className={`${classes["project-technology-grid"]}`}>
-            {props.tools.map((i) => (
-              <li key={Math.random() * 1000}>{i}</li>
-            ))}
-          </ul> */}
           <div className={classes.project}>
             <ul className={classes.new}>
               {props.tools.map((i) => (

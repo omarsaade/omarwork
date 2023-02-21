@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Sectionmsg from "./Sectionmsg";
 import classes from "./SectionInTouch.module.css";
 
 const ContactData = [
@@ -24,39 +25,54 @@ const ContactData = [
 ];
 
 const SectionInTouch = () => {
+  const [status, setStatus] = useState(false);
+  const clickHandler = () => {
+    setStatus(true);
+  };
+
+  const closeHandler = () => {
+    setStatus(false);
+  };
+
   return (
-    <section>
-      <div className={`${classes["works-title"]}`}>
-        <div></div>Get in touch
-      </div>
-      <div className={classes.contactContainer}>
-        {ContactData.map((x) => (
-          <NavLink
-            target="_blank"
-            key={Math.random() * 1000}
-            className={classes.touchNavLink}
-            to={x.url}
-          >
-            <div className={classes.contactText}>
-              {x.name}
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 24 24"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path fill="none" d="M0 0h24v24H0z"></path>
-                <path d="M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5z"></path>
-              </svg>
-            </div>
-          </NavLink>
-        ))}
-      </div>
-      <button className={classes.btn}>Send Message</button>
-    </section>
+    <>
+      {status && <Sectionmsg onClick={closeHandler} />}
+      <section id="contact">
+        <div className={`${classes["works-title"]}`}>
+          <div></div>Get in touch
+        </div>
+        <div className={classes.contactContainer}>
+          {ContactData.map((x) => (
+            <NavLink
+              target="_blank"
+              key={Math.random() * 1000}
+              className={classes.touchNavLink}
+              to={x.url}
+            >
+              <div className={classes.contactText}>
+                {x.name}
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path d="M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5z"></path>
+                </svg>
+              </div>
+            </NavLink>
+          ))}
+        </div>
+        {/* {status && <Sectionmsg onClick={closeHandler} />} */}
+        <button type="button" className={classes.btn} onClick={clickHandler}>
+          Send Message
+        </button>
+      </section>
+    </>
   );
 };
 

@@ -5,7 +5,7 @@ import classes from "./SectionHero.module.css";
 
 const SectionHero = () => {
   return (
-    <section className={`${classes["section-hero"]}`}>
+    <section id="about" className={`${classes["section-hero"]}`}>
       <div className={`${classes["hero-title"]}`}>
         <div className={`${classes["hero-title-text"]}`}>
           <h4>Hi, I'm Omar</h4>

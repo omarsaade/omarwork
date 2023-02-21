@@ -42,6 +42,7 @@ const MainNavigation = () => {
               <NavLinks />
             </nav>
             <button
+              type="button"
               className={`${classes["main-navigation__menu-btn"]}`}
               onClick={() => setDrawerIsOpen(!drawerIsOpen)}
             >

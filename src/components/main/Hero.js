@@ -39,7 +39,7 @@ const Data = [
 ];
 const Hero = () => {
   return (
-    <section>
+    <section id="works">
       <div className={`${classes["works-title"]}`}>
         <div></div>
         Some things I've built

@@ -41,7 +41,7 @@ const Data = [
 
 const SectionIdea = () => {
   return (
-    <section>
+    <section id="posts">
       <div className={`${classes["works-title"]}`}>
         <div></div>
         Blogs
