@@ -3,6 +3,8 @@ import Modal from "../UIElements/Modal";
 import "./Sectionmsg.css";
 
 const Sectionmsg = (props) => {
+  const [myState, setMyState] = useState(false);
+
   const [enteredName, setEnteredName] = useState("");
   const [enteredNameTouched, setEnteredNameTouched] = useState(false);
 
@@ -51,9 +53,28 @@ const Sectionmsg = (props) => {
     setEnteredMessageTouched(true);
   };
 
-  const formSubmissionHandler = (event) => {
+  const formSubmissionHandler = async (event) => {
     event.preventDefault();
-    // console.log(enteredEmail, enteredName, enteredMessage);
+    setMyState(true);
+    try {
+      const requestOptions = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: enteredName,
+          email: enteredEmail,
+          mg: enteredMessage,
+        }),
+      };
+
+      const responseData = await fetch(
+        "https://omar321api.onrender.com/api/messages",
+        requestOptions
+      );
+    } catch (err) {
+      console.log(err.message);
+    }
+    setMyState(false);
     setEnteredNameTouched(true);
 
     if (!enteredNameIsValid) {
@@ -74,6 +95,7 @@ const Sectionmsg = (props) => {
     <Fragment>
       <form onSubmit={formSubmissionHandler} className="form-control">
         <div className="div1">
+          {myState && <div>Please wait...</div>}
           <label htmlFor="name">Name</label>
           <input
             value={enteredName}
