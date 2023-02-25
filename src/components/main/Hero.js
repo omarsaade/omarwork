@@ -8,13 +8,14 @@ import classes from "./Hero.module.css";
 const Data = [
   {
     id: 1,
-    name: "My Favorite Place",
+    name: "Snap App",
     tools: ["React", "Node", "ExpressJS", "MongoDB"],
     about:
-      "My Favorite Place is an App that allows users to save and favorite their favorite places, It integrates navigation, description and information about that place .",
-    url: "https://omarsaade-favoriteplaces.onrender.com",
-    github: "https://github.com/omarsaade/MernStackProject",
-    image: FavoritePlace,
+      "Snap App focus on creating a photo sharing platform for people who love architecture. It integrates sharing, navigation, architecture information and tour planning together.",
+    url: "https://snap-omarsaade.onrender.com/",
+    github: "https://github.com/omarsaade/Snap-App",
+    image:
+      "https://github.com/omarsaade/omarsaade/raw/main/assets/pp.jpg?raw=true",
   },
   {
     id: 2,
