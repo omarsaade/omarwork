@@ -23,7 +23,7 @@ const Data = [
     tools: ["React", "Firebase", "ReduxToolkit", "Render"],
     about:
       "CryptoFinder App focus on using the latest version of redux (Redux Toolkit) and React Router (V6) ",
-    url: "https://omarsaade-cryptofinder.onrender.com",
+    url: "https://github.com/omarsaade/CryptoFinder",
     github: "https://github.com/omarsaade/CryptoFinder",
     image: CryptoFinderApp,
   },
