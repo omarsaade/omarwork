@@ -12,7 +12,7 @@ const Data = [
     tools: ["React", "Node", "ExpressJS", "MongoDB"],
     about:
       "Snap App focus on creating a photo sharing platform for people who love architecture. It integrates sharing, navigation, architecture information and tour planning together.",
-    url: "https://snap-omarsaade.onrender.com/",
+    url: "https://omarsaade.github.io/snap-app/",
     github: "https://github.com/omarsaade/Snap-App",
     image:
       "https://github.com/omarsaade/omarsaade/raw/main/assets/pp.jpg?raw=true",
