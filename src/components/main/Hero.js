@@ -20,7 +20,7 @@ const Data = [
     name: "Al Markazia News App",
     tools: ["ReactNative", "Redux", "Redux Toolkit"],
     about:
-      "Almarkazia is a news app designed to keep users informed and connected to the world. It offers curated news from various categories, personalized recommendations, and real-time updates. With its intuitive interface, Almarkazia provides a reliable and immersive news experience, allowing users to stay ahead and share stories effortlessly.",
+      "Almarkazia is a news app designed to keep users informed and connected to the world. It offers curated news from various categories, personalized recommendations, and real-time updates.",
     url: "https://github.com/omarsaade/almarkazia",
     github: "https://github.com/omarsaade/almarkazia",
     image:
